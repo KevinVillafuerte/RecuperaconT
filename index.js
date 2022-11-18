@@ -35,7 +35,7 @@ var bodyParser = require('body-parser');
  // app.use('/api/login', require('./routes/login.route'));
 
  // set port
- app.listen(4004, function () {
-     console.log('Node app is running on port 4004');
+ app.listen(3000, function () {
+     console.log('Node app is running on port 3000');
  });
  module.exports = app;
